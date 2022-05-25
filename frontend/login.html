@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인페이지</title>
+<!--    구글 폰트 넣기-->
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+
+        * {
+            /* 전체 폰트 설정정*/
+           font-family: 'Jua', Sans-Serif;
+        }
+        .mytitle {
+
+            /*박스 크기를 맞춘다*/
+            width: 300px;
+            height: 200px;
+
+            /*글자색은 흰색*/
+            color: white;
+            /*전체를 중앙으로*/
+            text-align: center;
+            /*그림 붙일 때는 항상 아래 3라인은 함께 써라*/
+            background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+            background-size: cover;
+            background-position: center;
+            /*박스 모서리를 둥글게*/
+            border-radius: 10px;
+            /*박스 상단 안쪽 여백주기*/
+            padding-top: 40px;
+        }
+        /*전체 영역을 감싸준다*/
+        .wrap {
+            /*박스 배경색*/
+            background-color: white;
+            /*!*박스 크기를 맞춘다*!*/
+            width: 300px;
+
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="mytitle">
+            <h1>로그인 페이지</h1>
+            <h5>아이디, 비밀번호를 입력해 주세요</h5>
+        </div>
+        <p>ID: <input type="text"/></p>
+        <p>PWD: <input type="text"/></p>
+        <p><button>로그인하기</button></p>
+    </div>
+</body>
+</html>
